@@ -16,9 +16,22 @@
 
 Here you can:
 
-- Add a new task
-- Edit the task
-- Delete the task
+➕ Add a new task:
+- Click the "Add" button or press "Enter".
+</br>
+  
+✏️ Edit the task:
+- Click the pencil icon or double-click on the task title.
+- To cancel editing, click the "X" icon, press "Escape", or click anywhere outside the task.
+</br>
+
+💾 Save the task:
+- After editing the task, click the save icon or press "Enter".
+</br>
+  
+🗑️ Delete the task
+- Click the delete icon.
+</br>
 
 <img width=600 src="https://img001.prntscr.com/file/img001/VeI87ccLS_Cb38aEP2BTHQ.png">
 
@@ -32,11 +45,3 @@ Then open a new terminal and enter:
 1. cd e-chat_todo-app
 2. npm i
 3. npm run dev
-
-## <img width=30 src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png">&nbsp;  Run with Docker
-
-- Docker build:
- <pre>docker build -t your-image-name .</pre>
-
-- Docker run:
- <pre>docker run -p 8080:80 your-image-name</pre>
